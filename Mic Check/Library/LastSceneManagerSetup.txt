@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Mic Levels.unity
+- path: Assets/Scenes/Mic Levels Oculus Quest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
