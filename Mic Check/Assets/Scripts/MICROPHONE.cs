@@ -24,7 +24,7 @@ public class MICROPHONE : MonoBehaviour
         if (ActiveMic == null)
         {
             ActiveMic = Microphone.devices[0];
-            micTake.clip = Microphone.Start(ActiveMic, true, 5, 44100);
+            micTake.clip = Microphone.Start(ActiveMic, true, 100, 44100);
             while (!(Microphone.GetPosition(ActiveMic) > 0))
             {
             }
