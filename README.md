@@ -2,7 +2,10 @@
 a little repo of reusable bits to make life more easy 
 
 ### Contains: 
-
+ 
+ - **ShaderGraphs**
+ 
+    a collection of different ShaderGraphs. *nothing special yet* 
 
  - **Mic Check** 
 
