@@ -5,7 +5,7 @@ a little repo of reusable bits to make life more easy
  
  - **ShaderGraphs**
  
-    a collection of different ShaderGraphs. *nothing special yet* 
+    a collection of different ShaderGraphs. *nothing special* 
 
  - **Mic Check** 
 
