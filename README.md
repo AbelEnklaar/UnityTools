@@ -13,7 +13,7 @@ a little repo of reusable bits to make life more easy
    
    *functional with regular camera scene, not yet tested with oculus quest.* 
    
- - **RoomCalibration Code**
+ - **RoomCalibration Script**
  
    a little tool to test for drift in oculus quest headset, using the left controler to set cubes for your play area corners. trying to line up      the real and virtual world and see if they remain in the same position. Advice is to use a material with higher alpha so you can see the positioning cube more easily. 
 
