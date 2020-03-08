@@ -9,6 +9,7 @@ public class SetCube : MonoBehaviour
     private GameObject _posCube; 
     public Vector3 startPos;
     public Vector3 finalPos;
+    public Quaternion finalRot;
     private float _counter; 
     void Start()
     {
@@ -22,6 +23,8 @@ public class SetCube : MonoBehaviour
     {
         cube.transform.position = transform.parent.localPosition;
         finalPos = transform.TransformPoint(cube.transform.localPosition);
+        finalRot = transform.localRotation;
+        Debug.Log(finalRot);
         if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch) || Input.GetKeyDown(KeyCode.K))
         {
             PlaceCube();
@@ -36,7 +39,7 @@ public class SetCube : MonoBehaviour
     void PlaceCube()
     {
         
-        _posCube = Instantiate(measurementCube, finalPos, Quaternion.identity);
+        _posCube = Instantiate(measurementCube, finalPos, finalRot);
         _posCube.tag = "Trackers"; 
         
 
