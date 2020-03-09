@@ -16,6 +16,11 @@ a little repo of reusable bits to make life more easy
  
    a little tool to test for drift in oculus quest headset, using the left controler to set cubes for your play area corners. trying to line up      the real and virtual world and see if they remain in the same position. Advice is to use a material with higher alpha so you can see the positioning cube more easily. 
 
+- **Meshdeformer Script** 
+  
+  a script to allow for meshdeformation by userinput (made by following catlike coding tutorial), 
+ 
+   *working on : integration in oculus quest & simple interaction with pointcloud meshes*
 
 - **KineSphere Project Package**
 
